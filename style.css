@@ -1,0 +1,154 @@
+
+*{
+    box-sizing: border-box;
+}
+/*barra*/
+
+.navbar {
+    padding: 20px;
+    background-color: blueviolet; 
+    font-weight: bold;
+    font-family: "Montserrat",sans-serif;
+
+}
+
+.nav-link {
+color: aliceblue;
+}
+
+.nav-link:hover{
+    color:palevioletred;
+}
+
+.navbar-collapse { 
+text-align: right;
+justify-content: right;
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+display: none;
+    }
+}
+
+/*Estilos generales*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.seccion-titulo {
+    color: black;
+    font-size: 40px;
+    padding: 15px 0;
+    font-family: "fredericka the Great", cursive;}
+
+.seccion-texto {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+/*Seccion Principal*/
+.principal {
+    background-color:white;
+    min-height: 450px;
+    text-align: center;
+}
+h1 {
+     font-size: 40px;
+font-family: 'Fredericka the Great', cursive;
+}
+    
+h2 {
+ font-size: 30px;
+ font-family: "Montserrat", sans-serif;
+ color:rgb(129, 129, 235);
+}
+
+.foto{
+width: 180px;
+height: 180px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 50%;
+margin: 20px;
+}
+
+.principal__perfil { 
+    padding: 40px;
+}  
+
+.redes_ana {
+    font-size: 2.5rem;
+    color: inherit;
+    color: palevioletred;
+    padding: 2px;
+
+}
+.redes_ana:hover{
+    color: blueviolet;
+}
+    
+}
+
+/*sobre mi */
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.seccion-oscura {
+    background-color: blueviolet;
+    color: white;
+}
+
+/*EXPERIENCIA*/
+.experiencia {
+padding: 40px;
+}
+
+
+.seccion-clara {
+    background-color: white;
+
+}
+
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: black;
+    background-color: palevioletred;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+.badge-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge {
+    margin:5px;
+}
+
+@media screen and (min-width: 700) {
+.imagen_inferior {
+    max-width: 600px;
+}
+}
