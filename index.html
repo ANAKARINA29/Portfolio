@@ -40,15 +40,15 @@
               <div class="collapse navbar-collapse" id="navbar-Toggler">
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="#Inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Formaçao</a>
+                    <a class="nav-link" href="#Informaciones">Sobre mim</a>
                   </li>
                   <li class="nav-item"> 
-                    <a class="nav-link" href="#">Proyectos</a>
+                    <a class="nav-link" href="#Proyectos">Projetos</a>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#Inicio">Contato</a>
 
                   </li>
                 </ul>
@@ -57,7 +57,7 @@
           </nav>
 
 <!--Seccion principal-->
-<section class="principal align-items-stretch">
+<section id="Inicio" class="principal align-items-stretch">
   <div class="principal__perfil">
     <img src="imagenes/1670097400758.jpg" alt="Foto de Ana Karina" class="foto">
 
@@ -83,10 +83,10 @@
 </section>
 
 <!--Sobre mi-->
-<section class="sobre-mi seccion-oscura">
+<section id="Informaciones"  class="sobre-mi seccion-oscura">
 <div class="contenedor">
 <h2 class="seccion-titulo">Sobre mim</h2>
-<p class="seccion-texto"> Foi formada na carreira de direito faz 10 anos, atualmente moro no Brasil e estou aprendendo desenvolmento web Front-End com a Toti.</p>
+<p class="seccion-texto"> Atualmente moro no Brasil e estou aprendendo desenvolmento web Front-End com a Toti.</p>
 
 </div>
 
@@ -99,31 +99,37 @@
 <!--Desarrollo web-->
 <div class="columna col-12 col-md-4">
   <i class="bi bi-laptop"></i>
-<p class="experiencia-titulo">Desarrollo web</p>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac semper mauris. Vestibulum iaculis risus lectus, vel faucibus metus dignissim id. </p>
-
-</div>
-
-<!--Articulos-->
-<div class="columna col-12 col-md-4">
-  <i class="bi bi-laptop"></i>
-  <p> Articulos</p> 
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac semper mauris. Vestibulum iaculis risus lectus, vel faucibus metus dignissim id.</p>
-
-</div>
-
-<!--Estudiante-->
-<div class="columna col-12 col-md-4">
-  <i class="bi bi-laptop"></i>
-  <p>Estudiante</p>
-  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac semper mauris. Vestibulum iaculis risus lectus, vel faucibus metus dignissim id.</p>
-<div class="badges-contened">
+<p class="experiencia-titulo">Desenvolvimento web</p>
+<p> No curso da Toti estou aprendendo diversos lenguagem de programaçao focados na area de Front-End. </p>
+<div class="badges-contenedor">
   <span class="badge text-bg-primary">HTML</span>
   <span class="badge text-bg-primary">CSS</span>
-  <span class="badge text-bg-primary">HTML</span>
-  <span class="badge text-bg-primary">CSS</span>
+  <span class="badge text-bg-primary">Bootstrap</span>
 
+</div>
+</div>
 
+<!--Graduacion-->
+<div class="columna col-12 col-md-4">
+  <i class="bi bi-laptop"></i>
+  <p class="experiencia-titulo"> Advogada</p> 
+<p>Estudei a carreira de direito, logrando o titulo de advogada. Sou amante da justicia e da verdade.</p>
+<div class="badges-contenedor">
+  <span class="badge text-bg-primary">Justicia </span>
+  <span class="badge text-bg-primary">Verdade</span>
+</div>
+</div>
+
+<!--Trabajo actual-->
+<div class="columna col-12 col-md-4">
+  <i class="bi bi-laptop"></i>
+  <p class="experiencia-titulo">Suporte tecnico</p>
+  <p> Atualmente trabalho brindando suporte tecnico a computadores para uma marca reconhecida.</p>
+  <div class="badges-contenedor">
+    <span class="badge text-bg-primary">Suporte</span>
+    <span class="badge text-bg-primary">Pcs</span>
+
+  </div>
 </div>
 
 
@@ -131,9 +137,82 @@
 </section>
 
 
+<!--Proyectos-->
+<section id="Proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+<h2 class="seccion-titulo texto-negro"> Projetos</h2>
+<h3 class="seccion-descripcion"> Alguns de meus projetos de pratica.</h3>
+<!--Galeria-->
+<div class="container text-center proyectos-contenedor">
+<div class="row">
+
+<!--Proyecto 1-->
+<div class="col-12 col-md-6 col-lg-4">
+<div class="proyecto"> 
+  <img src="imagenes/Proyecto1.PNG" alt="Proyecto1">
+  <div class="overlay">
+<p>Projeto 1</p>
+<div class="iconos-contenedor">
+<a href="https://github.com/ANAKARINA29/Practica-receita" target="_blank" rel="noopener" class="redes_ana">
+  <i class="bi bi-github"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!--Proyecto 2-->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto"> 
+    <img src="imagenes/Proyecto2.PNG" alt="Proyecto2">
+    <div class="overlay">
+  <p>Projeto 2</p>
+  <div class="iconos-contenedor">
+  <a href="https://github.com/ANAKARINA29/Practica-con-css" target="_blank" rel="noopener" class="redes_ana">
+    <i class="bi bi-github"></i>
+  </a>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+<!--Proyecto 3-->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto"> 
+    <img src="imagenes/Proyecto3.PNG" alt="Proyecto3">
+    <div class="overlay">
+  <p>Projeto 3</p>
+    <div class="iconos-contenedor">
+      <a href="https://github.com/ANAKARINA29/Practica-con-css" target="_blank" rel="noopener" class="redes_ana">
+        <i class="bi bi-github"></i>
+      </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+
+<!--PIE DE PAGINA-->
+<footer class="seccion-oscura d-flex flex-column align-items-center">
+<div class="rodape-texto text-center">
+     <p>&copy; Creado por Ana Karina 2023 </p>
+</div>
+
+
+</footer>
+
   <!--Javascrip-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
-  
+
+</html>
 
