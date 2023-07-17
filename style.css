@@ -223,6 +223,51 @@ transition: all 0.2s ease-in;
 
 }
 
+/*FORMULARIO*/ 
+.formulario {
+margin-top: 40px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    width: 200%;
+
+
+  }
+  
+  label {
+    margin-bottom: 10px;
+    
+  }
+  
+  input,
+  textarea {
+    padding: 13px;
+    margin-bottom: 1px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: rgb(213, 243, 233);
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+  
+  }
+
+
 /*boton*/
 .btn-info {
     font-size: 1.1rem;
